@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# AWS credentials
+aws_credentials.conf
+
+# Backstage credentials
+backstage/my-backstage-app/secrets.sh
+backstage/my-backstage-app/my-backstage-secrets.yaml
+
 # Distribution / packaging
 .Python
 build/
